@@ -2,6 +2,8 @@
 ## Introduction
 This repository contains a simple set of commands to enhance your New Year celebration. Follow the instructions below to add some fun and creativity to your festivities.
 
+![](happyNewYear.gif)
+
 ## Instructions
 1. Build Docker Image
 Execute the following command to build the necessary Docker image:
