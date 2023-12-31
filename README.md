@@ -10,14 +10,15 @@ Execute the following command to build the necessary Docker image:
 docker build -t artii-lolcat-im .  
 ~~~
 
-2.  Run Container Script
-To start, run the following command to set up a container:
+2.  Run Docker Container
+Run the following command to create and enter a Docker container for printing New Year messages:
 
 ~~~sh
-./do_container.sh
+docker run --name print-new-year-2024 \
+    --rm \
+    -it artii-lolcat-im \
+    /bin/bash
 ~~~
-
-This script will handle the container setup and provide an environment for the subsequent commands.
 
 3. Display a Festive Message
 Next, use the following command to display a colorful "Happy New Year 2024!" message in your terminal:
